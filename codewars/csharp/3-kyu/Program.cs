@@ -12,6 +12,9 @@ namespace VariablesCS
             int max = array.Max();
             int min = array.Min();
 
+            int[] arr = { 34, 15, 88, 2 };
+            Console.WriteLine(arr.Min());
+
         }
     }
 
