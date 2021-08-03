@@ -6,15 +6,15 @@ Given [34, 15, 88, 2] your solution will return 2
 Given [34, -345, -1, 100] your solution will return -345
 You can assume, for the purpose of this kata, that the supplied array will not be empty.
 
-P - Working with an array of integers, determine which is the smallest integer. 
+P - Working with an array of integers, determine which is the smallest. 
 
-E - The first integer in the array is the smallest, or one of the remaining integers in the list are the smallest
+E - The first integer in the array is the smallest, or one of the remaining integers in the array are the smallest
 
     Given [34, 15, 88, 2] your solution will return 2
     Given [34, -345, -1, 100] your solution will return -345
 
 D - Array of integers 
-    creating a loop t
+    creating a loop to review integers
 
 A - 
 
