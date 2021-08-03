@@ -25,8 +25,7 @@ A -
 4. Console.WriteLine displaying the lowest integer.
 
 C -
-
-int[] array = { 34, 15, 88, 2 };
+values = new int[] { 34, 15, 88, 2  }; 
 
 int lowestNumber [0];
 
@@ -37,7 +36,3 @@ if
 }
 
 Console.WriteLine ("Lowest number is {lowestNumber}");
-
-
-
-
