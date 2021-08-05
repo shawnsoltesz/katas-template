@@ -25,6 +25,6 @@ values = new int[] { 34, 15, 88, 2 };
 
 var values.Sort();
 
-var lowestValue = values.IndexOf[0];
+var lowestValue = values [0];
 
-Console.WriteLine ("Lowest number is {lowestValue}");
+return lowestValue;
