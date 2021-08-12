@@ -7,7 +7,7 @@
       "type": "process",
       "args": [
         "build",
-        "${workspaceFolder}/6-kyu/6-kyu.csproj",
+        "${workspaceFolder}/_6_kyu.csproj",
         "/property:GenerateFullPaths=true",
         "/consoleloggerparameters:NoSummary"
       ],
@@ -19,7 +19,7 @@
       "type": "process",
       "args": [
         "publish",
-        "${workspaceFolder}/6-kyu/6-kyu.csproj",
+        "${workspaceFolder}/_6_kyu.csproj",
         "/property:GenerateFullPaths=true",
         "/consoleloggerparameters:NoSummary"
       ],
@@ -32,7 +32,7 @@
       "args": [
         "watch",
         "run",
-        "${workspaceFolder}/6-kyu/6-kyu.csproj",
+        "${workspaceFolder}/_6_kyu.csproj",
         "/property:GenerateFullPaths=true",
         "/consoleloggerparameters:NoSummary"
       ],
