@@ -32,10 +32,23 @@ find sum (2) should return invalid - not a multiples of 3 or 5
 
 D -
 
-list of integers that are multiples of 3 or 5
+given integers that are multiples of 3 or 5
 
 A -
 
-For n, determine the integers that are multiples of 3 and 5, including n to determine the array to be summed.
+- For n, determine the integers that are multiples of 3 and 5, including n to determine the array to be summed.
+- loop through all the value to the "n" and declare an incrementor equal to 3.
+- if the incrementer is divisible by 3 or 5, add it to the result.
+- else, do nothing
+- return the result
 
 If n is not a multiple of 3 or 5, n is invalid and this cannot be complete.
+
+C -
+var result = 0;
+
+for (var incremementor = 3, incrementer <=n; incremementer ++)
+{ if (incrementer % 3 == 0 || incrementer % 5 == 0)
+{result += incrementer;}
+}
+return result;
